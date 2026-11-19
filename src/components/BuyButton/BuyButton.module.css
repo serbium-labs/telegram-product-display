@@ -1,0 +1,32 @@
+.container {
+  margin-top: var(--space-large);
+}
+
+.button {
+  width: 100%;
+  min-height: var(--control-min-height-large);
+  padding: var(--space-medium) var(--space-large);
+  border: 0;
+  border-radius: var(--radius-medium);
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.button:focus-visible {
+  outline: var(--focus-outline-width) solid var(--color-accent);
+  outline-offset: var(--focus-outline-offset);
+}
+
+.error {
+  margin: var(--space-small) 0 0;
+  color: var(--color-error);
+  font-size: var(--font-size-small);
+  text-align: center;
+}

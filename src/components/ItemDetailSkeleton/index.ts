@@ -1,0 +1,1 @@
+export { ItemDetailSkeleton } from './ItemDetailSkeleton';
