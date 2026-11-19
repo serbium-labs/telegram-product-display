@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
+      TELEGRAM_TARGET_USERNAME: ${TELEGRAM_TARGET_USERNAME}
+      PUBLIC_APP_URL: ${PUBLIC_APP_URL}
+      TELEGRAM_INIT_DATA_MAX_AGE_SECONDS: ${TELEGRAM_INIT_DATA_MAX_AGE_SECONDS:-3600}
+    ports:
+      - '3000:3000'
+    restart: unless-stopped

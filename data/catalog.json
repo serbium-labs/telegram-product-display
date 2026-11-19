@@ -1,0 +1,24 @@
+[
+  {
+    "id": "forest-thicket",
+    "name": "Forest Thicket",
+    "price": {
+      "amountMinor": 2000000,
+      "currency": "RUB"
+    },
+    "description": "A quiet forest study created with layered natural tones.",
+    "paintedAt": 1704067200,
+    "assetKey": "forestView"
+  },
+  {
+    "id": "ocean-view",
+    "name": "Ocean View",
+    "price": {
+      "amountMinor": 2750000,
+      "currency": "RUB"
+    },
+    "description": "An abstract ocean composition with a calm, open atmosphere.",
+    "paintedAt": 1717200000,
+    "assetKey": "oceanView"
+  }
+]

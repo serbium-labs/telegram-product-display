@@ -1,0 +1,67 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #172033;
+  background: #f4f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --color-background: #f4f7fb;
+  --color-surface: #ffffff;
+  --color-surface-muted: #eaf0f7;
+  --color-text: #172033;
+  --color-text-muted: #62708a;
+  --color-accent: #2aabee;
+  --color-accent-strong: #087fb9;
+  --color-on-accent: #ffffff;
+  --color-border: #dce4ef;
+  --color-border-strong: #bac8da;
+  --color-error: #b42318;
+  --color-skeleton: #dfe7f1;
+  --space-small: 0.5rem;
+  --space-medium: 1rem;
+  --space-large: 2rem;
+  --space-extra-large: 3rem;
+  --space-page-block: clamp(2rem, 7vw, 5rem);
+  --space-page-inline: clamp(1rem, 4vw, 2.5rem);
+  --content-max-width: 80rem;
+  --detail-content-max-width: 72rem;
+  --gallery-max-width: 44rem;
+  --font-size-small: 0.75rem;
+  --font-size-body: 1rem;
+  --font-size-body-large: 1.125rem;
+  --font-size-card-title: 1.25rem;
+  --font-size-status-title: 1.5rem;
+  --font-size-price: 1.75rem;
+  --font-size-section-title: 2rem;
+  --radius-small: 0.5rem;
+  --radius-medium: 0.875rem;
+  --radius-large: 1.25rem;
+  --radius-pill: 999rem;
+  --shadow-surface: 0 1rem 3rem rgb(23 32 51 / 12%);
+  --shadow-card: 0 0.75rem 2rem rgb(23 32 51 / 8%);
+  --animation-duration-slow: 1.2s;
+  --animation-duration-fast: 180ms;
+  --control-min-height: 2.75rem;
+  --control-min-height-large: 3.25rem;
+  --focus-outline-width: 0.1875rem;
+  --focus-outline-offset: 0.1875rem;
+  --space-section: clamp(4rem, 10vw, 7rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 20rem;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
